@@ -1,0 +1,190 @@
+.hero {
+  background-color: var(--clr-background);
+  display: flex;
+  flex-direction: column-reverse;
+}
+/* hero image */
+.hero__image {
+  margin: 0 auto;
+}
+/* title */
+.hero__title {
+  font-size: var(--size-3xl);
+  text-transform: capitalize;
+  letter-spacing: 0.1rem;
+}
+/* title colored  */
+span {
+  color: var(--clr-primary);
+}
+
+/* button container */
+.hero__download-wrapper {
+  display: flex;
+}
+
+/* text button container */
+.hero__download-wrapper-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 9px;
+}
+
+/* paragraph */
+.hero__description {
+  margin: 0.5rem;
+  font-size: var(--size-sm);
+}
+
+/* apple button */
+.hero__icon-button {
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 6px;
+  /* padding: 2px 15px; */
+  /* padding: 4px 26px 4px 22px; */
+  padding: 4px 26px 4px 11px;
+}
+.apple-icon {
+  margin-right: 24px;
+}
+.hero__download-text {
+  font-size: var(--size-xxs);
+}
+
+h2 {
+  font-size: var(--size-xs);
+}
+
+.hero__icon-button:hover {
+  background-color: #2f2d7c;
+}
+/* xs */
+@media (min-width: 475px) {
+  .hero {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .hero__image {
+    width: 22rem;
+  }
+  .hero__description {
+    margin-left: 0;
+    font-weight: 700;
+    font-size: var(--size-xs);
+  }
+  .hero__icon-button {
+    /* margin-left: 12px; */
+    padding: 1px 12px;
+  }
+  .apple-icon {
+    margin-right: 9px;
+  }
+  /* text */
+  .hero__title {
+    font-size: var(--size-4xl);
+  }
+}
+
+/* sm */
+/* @media (min-width: 640px) {
+} */
+/* md */
+/* @media (min-width: 768px) {
+} */
+/* lg */
+@media (min-width: 1024px) {
+  .hero {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+  }
+  .hero__image img {
+    width: 22rem;
+  }
+
+  .hero__image {
+    margin: 0;
+  }
+
+  .hero__description {
+    /* margin-left: 0; */
+    font-size: var(--size-lg);
+    margin: 1rem 0 0.6rem;
+  }
+  .hero__icon-button {
+    padding: 2px 26px;
+    /* padding: 7px 26px; */
+  }
+  .apple-icon {
+    margin-right: 9px;
+  }
+  /* text */
+  .hero__title {
+    font-size: var(--size-6xl);
+    width: 50%;
+  }
+
+  .hero__text {
+    width: 50%;
+  }
+}
+/* xl */
+@media (min-width: 1280px) {
+  /* .hero__download-text {
+    font-size: var(--size-sm);
+  }
+  .hero__download-wrapper-text h2 {
+    font-size: var(--size-base);
+  } */
+}
+
+/* 2xl */
+@media (min-width: 1536px) {
+  .hero__title {
+    font-size: var(--size-7xl);
+    /* color: red; */
+  }
+  .hero__image {
+    margin: 0;
+  }
+  .hero__image img {
+    width: 22rem;
+  }
+  .hero__description {
+    font-size: var(--size-xl);
+  }
+  /* button */
+  .apple-icon {
+    margin-right: 33px;
+  }
+  .hero__icon-button {
+    padding: 7px 31px;
+  }
+
+  .hero__download-text {
+    font-size: var(--size-xs);
+  }
+  .hero__download-wrapper-text h2 {
+    font-size: var(--size-xl);
+    font-weight: normal;
+  }
+  /* icon  */
+  .apple {
+    font-size: 2rem;
+    margin-top: 18px;
+  }
+
+  .Playstore {
+    font-size: 1.7rem;
+    margin-top: 20px;
+  }
+}
