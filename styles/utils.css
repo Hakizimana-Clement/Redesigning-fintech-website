@@ -38,6 +38,9 @@
     0 10px 10px rgb(92, 89, 195, 0.22), 0 0 120px -10px var(--clr-primary);
 }
 
+span {
+  color: var(--clr-primary);
+}
 /* section*/
 .section {
   margin-top: 5rem;
