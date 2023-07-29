@@ -1,6 +1,59 @@
+.take-control {
+  display: flex;
+  flex-direction: column;
+}
+
+.take-control__title {
+  font-size: var(--size-4xl);
+  /* width: 74%; */
+}
+/* Mobile */
+.take-control__wrapper-for-mobile {
+  margin-top: 2rem;
+}
+
+/* text */
+.take-control__description-for-mobile {
+  width: 72%;
+  color: var(--clr-grayish);
+  margin: 0.5rem 0;
+}
+
+/* image */
+.take-control__wrapper-for-mobile img {
+  margin: 0 auto;
+  /* object-fit: scale-down; */
+}
+
+.take-control__wrapper {
+  display: none;
+}
+
 /* xs */
-/* @media (min-width: 475px) {
-} */
+@media (min-width: 475px) {
+  /* for computer */
+  .take-control__wrapper {
+    display: block;
+  }
+  /* for mobile */
+  .take-control__wrapper-for-mobile {
+    display: none;
+  }
+  /* container */
+  .take-control__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 1.5rem;
+  }
+  .take-control__subtitle {
+    margin-bottom: 1.88rem;
+  }
+  .list li {
+    font-size: var(--size-xs);
+    margin-bottom: 1rem;
+  }
+}
 
 /* sm */
 /* @media (min-width: 640px) {
@@ -9,12 +62,51 @@
 /* @media (min-width: 768px) {
 } */
 /* lg */
-/* @media (min-width: 1024px) {
-} */
+@media (min-width: 1024px) {
+  .take-control__title {
+    font-size: var(--size-5xl);
+    width: 58%;
+  }
+  .take-control__subtitle {
+    font-size: var(--size-4xl);
+    width: 69%;
+  }
+  .list li {
+    font-size: var(--size-base);
+    margin-bottom: 1.5rem;
+    width: 63%;
+  }
+  .take-control img {
+    width: 20rem;
+  }
+
+  li::marker {
+    color: var(--clr-primary);
+  }
+}
 /* xl */
-/* @media (min-width: 1280px) {
-} */
+@media (min-width: 1280px) {
+  .take-control__title {
+    font-size: var(--size-5xl);
+    width: 58%;
+  }
+  .take-control__subtitle {
+    font-size: var(--size-4xl);
+  }
+  .list li {
+    font-size: var(--size-xl);
+    /* margin-bottom: 1.5rem; */
+    width: 55%;
+  }
+}
 
 /* 2xl */
-/* @media (min-width: 1536px) {
-} */
+@media (min-width: 1536px) {
+  .take-control__title {
+    font-size: var(--size-6xl);
+    width: 40%;
+  }
+  .take-control__subtitle {
+    font-size: var(--size-5xl);
+  }
+}
