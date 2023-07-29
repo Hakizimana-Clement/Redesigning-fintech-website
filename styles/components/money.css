@@ -1,0 +1,44 @@
+.money {
+  background: linear-gradient(358deg, #5c59c3, #9ad3cc);
+  padding: 9% 2%;
+}
+
+.money__title {
+  font-size: var(--size-3xl);
+  color: white;
+}
+.money img {
+  width: 11rem;
+  margin: 20% auto 0;
+}
+
+/* xs */
+@media (min-width: 475px) {
+  .money__title {
+    font-size: var(--size-4xl);
+    text-align: center;
+  }
+  .money img {
+    width: 12rem;
+  }
+}
+
+/* sm */
+@media (min-width: 640px) {
+  .money {
+    display: none;
+  }
+}
+/* md */
+/* @media (min-width: 768px) {
+} */
+/* lg */
+/* @media (min-width: 1024px) {
+} */
+/* xl */
+/* @media (min-width: 1280px) {
+} */
+
+/* 2xl */
+/* @media (min-width: 1536px) {
+} */

@@ -51,53 +51,7 @@
   width: 60%;
   /* width: 64%; */
 }
-/* xs */
-@media (min-width: 475px) {
-  /* card container */
-  /* .choose-better__cards {
-    display: flex;
-    flex-direction: column;
-  } */
-  /* card 1 */
-  /* .choose-better__card-1,
-  .choose-better__card-2,
-  .choose-better__card-3 {
-    margin-right: 37%;
-  } */
-
-  /* cards color */
-  /* .choose-better__card-1 {
-    background-color: var(--clr-secondary);
-  }
-
-  .choose-better__card-2 {
-    background-color: var(--clr-card2);
-  } */
-
-  /* .choose-better__card-3 {
-    background-color: var(--clr-card3);
-  } */
-  /* img */
-  /* .choose-better__img {
-    margin-left: auto;
-    width: 6rem;
-  } */
-  /* subtitle */
-  /* .choose-better__subtitle {
-    font-size: var(--size-xs);
-    color: var(--clr-fourth);
-    width: 64%;
-  } */
-
-  /* title */
-  /* .choose-better__title {
-    font-size: var(--size-4xl);
-    font-weight: 900;
-    width: 65%;
-  } */
-}
-
-/* sm */
+/* xl*/
 /* @media (min-width: 640px) { */
 @media (min-width: 475px) {
   /* title */
@@ -135,6 +89,11 @@
     margin-top: 9%;
   }
 }
+
+/* sm */
+/* @media (min-width: 640px) {
+} */
+
 /* md */
 /* @media (min-width: 768px) {
 } */

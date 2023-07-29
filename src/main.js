@@ -1,7 +1,9 @@
 import "../styles/modern-normalize.css";
 import "../styles/style.css";
-import "../styles/components/header.css"; // component
-import "../styles/components/hero.css"; // component
-
-import "../styles/components/choose-us.css"; // component
+// component
+import "../styles/components/header.css";
+import "../styles/components/hero.css";
+import "../styles/components/choose-us.css";
+import "../styles/components/take-control.css";
+import "../styles/components/money.css";
 import "../styles/utils.css";
