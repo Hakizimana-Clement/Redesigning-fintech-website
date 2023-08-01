@@ -7,4 +7,5 @@ import "../styles/components/choose-us.css";
 import "../styles/components/take-control.css";
 import "../styles/components/money.css";
 import "../styles/components/expertise.css";
+import "../styles/components/world-of-fisdom.css";
 import "../styles/utils.css";

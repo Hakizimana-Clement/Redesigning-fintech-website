@@ -1,0 +1,122 @@
+/* container */
+.world-of-fisdom {
+  display: flex;
+  flex-direction: column;
+  padding-top: 5rem;
+}
+.world-of-fisdom__header {
+  text-align: center;
+}
+
+.world-of-fisdom__title {
+  font-size: var(--size-4xl);
+}
+.world-of-fisdom__description {
+  font-size: var(--size-xs);
+  margin: 1rem auto 0.9rem;
+  width: 85%;
+  line-height: 1rem;
+  /* margin-top: 0.5rem; */
+  /* margin: 0 auto; */
+}
+.world-of-fisdom__button {
+  margin-top: 1rem;
+  padding: 0.4rem 0.6em;
+}
+.world-of-fisdom__image {
+  /* margin-top: 3rem; */
+  margin: 0 auto;
+}
+
+.world-of-fisdom__image img {
+  object-fit: none;
+}
+
+/* details container */
+.world-of-fisdom__detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.world-of-fisdom__details {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin: 3rem 0 1rem;
+}
+
+.world-of-fisdom__title-location {
+  font-size: var(--size-4xl);
+}
+
+.world-of-fisdom__location {
+  /* text-align: center; */
+  font-size: var(--size-xs);
+  color: #8a8a8a;
+}
+
+/* xs */
+@media (min-width: 475px) {
+  .world-of-fisdom__image img {
+    margin: 0 auto;
+  }
+
+  /*text  */
+  .world-of-fisdom__title {
+    font-size: var(--size-4xl);
+    /* letter-spacing: 2px; */
+  }
+  .world-of-fisdom__description {
+    width: 72%;
+    margin-top: 0.5rem;
+  }
+}
+
+/* sm */
+/* @media (min-width: 640px) {
+} */
+/* md */
+/* @media (min-width: 768px) {
+} */
+/* lg */
+@media (min-width: 1024px) {
+  .world-of-fisdom {
+    margin-top: 5rem;
+  }
+  /* text */
+  .world-of-fisdom__title {
+    font-size: var(--size-5xl);
+  }
+  .world-of-fisdom__description {
+    font-size: var(--size-sm);
+    width: 47%;
+  }
+  .world-of-fisdom__location {
+    font-size: var(--size-xl);
+  }
+  .world-of-fisdom__title-location {
+    font-size: var(--size-5xl);
+  }
+}
+/* xl */
+/* @media (min-width: 1280px) {
+} */
+
+/* 2xl */
+@media (min-width: 1536px) {
+  .world-of-fisdom__title {
+    font-size: var(--size-6xl);
+    /* width: 36%; */
+  }
+  .world-of-fisdom__description {
+    width: 36%;
+    font-size: var(--size-base);
+    /* max-width: 100%; */
+    /* height: auto; */
+  }
+  .world-of-fisdom__button {
+    padding: 0.8rem 1.5rem;
+  }
+}
