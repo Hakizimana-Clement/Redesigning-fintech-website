@@ -6,4 +6,5 @@ import "../styles/components/hero.css";
 import "../styles/components/choose-us.css";
 import "../styles/components/take-control.css";
 import "../styles/components/money.css";
+import "../styles/components/expertise.css";
 import "../styles/utils.css";

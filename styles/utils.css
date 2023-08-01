@@ -58,6 +58,9 @@ span {
   /* border: 1px rebeccapurple solid; */
 }
 
+.section {
+  margin-top: 10rem;
+}
 /* xs */
 @media (min-width: 475px) {
   .container {
@@ -81,11 +84,8 @@ span {
 @media (min-width: 1024px) {
   .container {
     max-width: 1024px;
-    width: 80%;
-  }
-
-  .section {
-    margin-top: 10rem;
+    padding: 0 6%;
+    /* width: 80%; */
   }
 }
 /* xl */

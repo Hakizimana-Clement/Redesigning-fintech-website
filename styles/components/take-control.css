@@ -88,7 +88,7 @@
 @media (min-width: 1280px) {
   .take-control__title {
     font-size: var(--size-5xl);
-    width: 58%;
+    width: 41%;
   }
   .take-control__subtitle {
     font-size: var(--size-4xl);
