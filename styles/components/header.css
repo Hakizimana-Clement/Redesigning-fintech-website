@@ -157,6 +157,9 @@ nav {
 
 /* lg */
 @media (min-width: 1024px) {
+  nav {
+    margin-top: 2rem;
+  }
   /* link */
   .header__link {
     font-size: var(--size-sm);

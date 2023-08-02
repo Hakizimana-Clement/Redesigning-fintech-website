@@ -11,10 +11,11 @@
   --clr-links-hover: #524fb7;
   --clr-links-inactive: #a8a7db;
   --clr-grayish: #524e4e;
+  --clr-really-gray: #8a8a8a;
+  --clr-font: #212239;
   /* original font color */
   /* --clr-font: #2b2a52; */
   /* sample on design color */
-  --clr-font: #212239;
 
   /* sizes */
   --size-xxs: 0.5rem;

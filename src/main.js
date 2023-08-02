@@ -8,4 +8,6 @@ import "../styles/components/take-control.css";
 import "../styles/components/money.css";
 import "../styles/components/expertise.css";
 import "../styles/components/world-of-fisdom.css";
+import "../styles/components/wealth.css";
+import "../styles/components/trusted.css";
 import "../styles/utils.css";

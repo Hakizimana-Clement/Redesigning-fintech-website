@@ -1,0 +1,162 @@
+.wealth {
+  display: flex;
+  flex-direction: column;
+}
+
+/* .wealth__title {
+  font-size: var(--size-3xl);
+} */
+.wealth__description {
+  font-size: var(--size-xs);
+  margin-top: 1rem;
+  color: var(--clr-grayish);
+}
+/* This is like card but not true */
+.wealth-part-1 {
+  /* border: 1px solid red; */
+  /* margin-top: 3rem; */
+  /* margin: 3rem 0 2rem; */
+  margin: 3rem 0;
+}
+
+.wealth__title {
+  font-size: var(--size-3xl);
+  width: 76%;
+}
+.wealth__text {
+  font-size: var(--size-xs);
+  margin-top: 0.4rem;
+  color: var(--clr-really-gray);
+}
+.wealth__link_btn {
+  padding: 2px 10px;
+  background: var(--clr-primary);
+  display: inline-block;
+  border-radius: 5px;
+  margin-top: 0.7rem;
+}
+/* images */
+.wealth__img {
+  display: none;
+}
+/* text title only */
+
+.title-2 {
+  /* width: 67%; */
+}
+.wealth__subtitle {
+  font-size: var(--size-xl);
+}
+
+/* xs */
+@media (min-width: 475px) {
+  .wealth__wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+  }
+  .wealth__container-1,
+  .wealth__container-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  /* title */
+  .wealth__title {
+    font-size: var(--size-4xl);
+    width: 61%;
+  }
+  /* .wealth__description {
+    font-size: var(--size-sm);
+    margin-top: 1.5rem;
+    width: 92%;
+  } */
+  .wealth__description {
+    font-size: var(--size-xs);
+    margin-top: 1.5rem;
+    width: 65%;
+  }
+  /* images */
+  .wealth__img {
+    display: flex;
+  }
+
+  .wealth__img img {
+    margin: auto 0;
+    width: 100vh;
+  }
+}
+
+/* sm */
+@media (min-width: 640px) {
+  /* images */
+  .wealth__img {
+    display: flex;
+  }
+
+  .wealth__img img {
+    margin: auto 0;
+    width: 100vh;
+  }
+  .wealth__description {
+    width: 54%;
+  }
+}
+/* md */
+@media (min-width: 768px) {
+  /* image */
+  .wealth__img img {
+    width: 50vh;
+  }
+
+  /* subtitle */
+  .wealth__subtitle {
+    font-size: var(--size-2xl);
+  }
+  /* paragraph */
+  .wealth__description {
+    font-size: var(--size-base);
+  }
+  .wealth__text {
+    font-size: var(--size-sm);
+  }
+}
+/* lg */
+@media (min-width: 1024px) {
+  /* image */
+  .wealth__img img {
+    width: 100vh;
+  }
+  /* text */
+  .wealth__title {
+    font-size: var(--size-5xl);
+    width: 57%;
+  }
+
+  .world-of-fisdom__description {
+    font-size: var(--size-base);
+    width: 46%;
+  }
+  /* button */
+  .wealth__link_btn {
+    padding: 5px 15px;
+    margin-top: 1.7rem;
+  }
+}
+/* xl */
+@media (min-width: 1280px) {
+  /* title */
+  .wealth__description {
+    font-size: var(--size-xl);
+  }
+  .wealth__subtitle {
+    font-size: var(--size-3xl);
+  }
+  .wealth__text {
+    font-size: var(--size-base);
+  }
+}
+
+/* 2xl */
+/* @media (min-width: 1536px) {
+} */
