@@ -10,4 +10,5 @@ import "../styles/components/expertise.css";
 import "../styles/components/world-of-fisdom.css";
 import "../styles/components/wealth.css";
 import "../styles/components/trusted.css";
+import "../styles/components/customers.css";
 import "../styles/utils.css";
