@@ -4,6 +4,11 @@
   margin: 0 0 3rem;
   width: 93%;
 }
+/* image container */
+.customer__img {
+  margin-bottom: 4rem;
+}
+
 /* image for web */
 .customer__img-for-web {
   display: none;
