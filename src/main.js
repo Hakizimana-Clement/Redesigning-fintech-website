@@ -12,4 +12,5 @@ import "../styles/components/wealth.css";
 import "../styles/components/trusted.css";
 import "../styles/components/customers.css";
 import "../styles/components/inspires.css";
+import "../styles/components/featured.css";
 import "../styles/utils.css";

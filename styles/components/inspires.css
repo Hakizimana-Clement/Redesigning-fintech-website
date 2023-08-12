@@ -68,12 +68,14 @@
 /* lg */
 @media (min-width: 1024px) {
   .inspires__title {
-    width: 40%;
+    /* width: 40%; */
+    font-size: var(--size-5xl);
   }
   /* text */
   .inspires__subtitle {
     width: 100%;
-    font-size: var(--size-lg);
+    font-size: var(--size-xl);
+    /* font-size: var(--size-lg); */
   }
   .inspires__years {
     margin-top: 0.8rem;
@@ -82,6 +84,7 @@
   .awars__cards-container {
     flex-wrap: nowrap;
     align-items: flex-end;
+    margin-top: 8rem;
   }
 }
 /* xl */
