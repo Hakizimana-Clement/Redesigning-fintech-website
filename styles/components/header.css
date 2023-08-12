@@ -181,6 +181,9 @@ nav {
   .header__logo {
     margin-right: auto;
   }
+  .header__logo img {
+    width: 28px;
+  }
 }
 /* xl */
 @media (min-width: 1280px) {
