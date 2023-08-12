@@ -1,0 +1,132 @@
+/* logo title */
+.logo__title-footer {
+  font-size: var(--size-2xl);
+}
+/* logo image */
+.logo__footer-img {
+  width: 28px;
+  height: auto;
+}
+/* subtitle */
+.footer__description {
+  margin-top: 0.5rem;
+  font-size: var(--size-sm);
+  text-transform: capitalize;
+  color: var(--clr-really-gray);
+}
+/* link container */
+.footer__links {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+/* list */
+.footer__list {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 1rem;
+}
+
+.footer__list li {
+  margin-bottom: 1rem;
+}
+
+.footer__list li:last-child {
+  margin-bottom: 0;
+}
+/* footer title */
+.footer__title {
+  color: var(--clr-font);
+}
+
+/* footer anchor */
+.footer__link a:link,
+.footer__link a:visited {
+  text-decoration: none;
+  color: var(--clr-links);
+}
+
+.footer__link a:hover,
+.footer__link a:active {
+  color: var(--clr-links-hover);
+  font-weight: 600;
+}
+/* download app */
+.footer__download-app {
+  margin-top: 3rem;
+}
+/* socail media container */
+.socail-media {
+  display: flex;
+  justify-content: flex-start;
+  gap: 2rem;
+  margin-top: 3rem;
+  /* margin-top: 2rem; */
+}
+/* icons size*/
+.fa-brands {
+  font-size: var(--size-xl);
+}
+/*  */
+
+.footer__social-media-and-download-app {
+  position: relative;
+}
+.footer__social-media-and-download-app::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 136px;
+  width: 100%;
+  border: 1px solid #8a8a8a94;
+  /* height: 1rem; */
+}
+/* copyright */
+.footer__copyright {
+  margin-top: 2rem;
+  color: var(--clr-links-inactive);
+  font-size: var(--size-sm);
+  /* color: red; */
+}
+/* paragraph */
+.footer__copyright-description {
+  margin-top: 3rem;
+}
+/* made-by */
+.footer__copyright-made-by {
+  margin: 1.5rem 0 2rem;
+}
+
+.footer__link {
+  margin-bottom: 3rem;
+}
+/* xs */
+@media (min-width: 475px) {
+  .footer__links {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  /* .footer__special {
+    display: flex;
+    gap: 6rem;
+  } */
+}
+
+/* sm */
+/* @media (min-width: 640px) {
+} */
+/* md */
+/* @media (min-width: 768px) {
+} */
+/* lg */
+/* @media (min-width: 1024px) {
+} */
+/* xl */
+/* @media (min-width: 1280px) {
+} */
+
+/* 2xl */
+/* @media (min-width: 1536px) {
+} */

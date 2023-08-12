@@ -12,7 +12,12 @@
   font-size: var(--size-sm);
   letter-spacing: 4px;
 }
-
+/* containers */
+/* text container */
+.feature__text-wrapper {
+  /* margin-top: 4rem; */
+  padding-bottom: 4rem;
+}
 /* icon container */
 .features__company {
   display: flex;
@@ -73,6 +78,7 @@
   margin-top: 1.5rem;
   font-size: var(--size-3xl);
   text-align: left;
+  width: 80%;
 }
 
 .feature__color {
@@ -89,7 +95,7 @@
 }
 /* download button */
 .feature__download-container {
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 
 /* xs */
@@ -210,12 +216,13 @@
 
   .feature__wrapper {
     gap: 4rem;
+    margin-top: 3rem;
   }
 
-  .feature__text-wrapper {
-    /* margin-top: 13rem; */
-    /* margin-top: 9rem; */
-  }
+  /* .feature__text-wrapper { */
+  /* margin-top: 13rem; */
+  /* margin-top: 9rem; */
+  /* } */
 
   .feature__description {
     font-size: var(--size-lg);
@@ -247,6 +254,7 @@
   /*images  */
   .feature-image {
     /* top: 13rem; */
+    /* top: 5rem; */
     flex: 0 1 675px;
     margin-left: 0;
   }
