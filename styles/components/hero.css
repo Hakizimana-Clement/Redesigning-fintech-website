@@ -63,6 +63,10 @@ h2 {
 .hero__icon-button:hover {
   background-color: var(--clr-bg-btn-hover);
 }
+.hero__text {
+  margin-top: 2rem;
+}
+
 /* xs */
 @media (min-width: 475px) {
   .hero {
