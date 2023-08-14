@@ -101,8 +101,12 @@ h2 {
 /* @media (min-width: 640px) {
 } */
 /* md */
-/* @media (min-width: 768px) {
-} */
+@media (min-width: 768px) {
+  .header__bars {
+    /* Hide the menu items on large screens */
+    display: flex;
+  }
+}
 /* lg */
 @media (min-width: 1024px) {
   .hero {
