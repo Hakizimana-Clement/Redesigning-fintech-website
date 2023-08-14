@@ -19,6 +19,8 @@ const mobileNav = () => {
       if (mediaQuery.matches) {
         // Then trigger an alert
         mobileNav.style.display = "none";
+
+        document.body.style.overflowY = "auto";
       }
     } else {
       mobileNav.style.display = "none";
