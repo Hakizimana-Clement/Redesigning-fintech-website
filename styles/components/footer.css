@@ -78,9 +78,15 @@
   /* margin-top: 2rem; */
 }
 /* icons size*/
-.fa-brands {
+.socail-media-icon {
   font-size: var(--size-xl);
+  color: #a8a7db;
 }
+
+.socail-media-icon:hover {
+  color: #302dc3;
+}
+
 /*  */
 
 .footer__social-media-and-download-app {
