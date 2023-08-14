@@ -1,6 +1,6 @@
 .expertise {
-  /* background-color: var(--clr-light); */
-  background-color: #f7f8fb;
+  background-color: var(--clr-background-dark);
+  /* background-color: #f7f8fb; */
   padding: 1rem 1rem 4rem;
   /* padding: 7% 6%; */
 }
@@ -9,6 +9,16 @@
   font-size: var(--size-3xl);
   margin: 1rem 0 0;
 }
+
+.expertise__card-1 .expertise__subtitle,
+.expertise__card-1 .expertise__description {
+  color: var(--clr-text-on-choose-section);
+}
+
+.expertise__card-3 .expertise__subtitle {
+  color: var(--clr-primary);
+}
+
 .expertise__card-1,
 .expertise__card-2,
 .expertise__card-3 {
@@ -23,6 +33,7 @@
 /* * subtitle */
 .expertise__subtitle {
   font-size: var(--size-xxs);
+  color: var(--clr-background-dark);
   /* margin-top: 0.5rem; */
 }
 .expertise__description {
@@ -30,6 +41,8 @@
   padding-top: 4rem;
   padding-bottom: 0.5rem;
   font-weight: bold;
+
+  color: var(--clr-background-dark);
 }
 /* icons */
 .card-1-icon {
@@ -192,6 +205,7 @@
   }
   .expertise__wrapper {
     flex-wrap: nowrap;
+    padding-bottom: 6rem;
   }
   .expertise__card-1,
   .expertise__card-2,

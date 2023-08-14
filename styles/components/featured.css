@@ -1,5 +1,6 @@
 .features {
-  background-color: var(--clr-links);
+  /* background-color: var(--clr-background-dark); */
+  background-color: var(--clr-on-features-section);
   text-align: center;
   color: white;
   font-size: var(--size-xl);

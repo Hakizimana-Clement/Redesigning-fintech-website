@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="shortcut icon" href="/public/logo.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="/logo.png" type="image/x-icon" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- google font  -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -14,62 +14,34 @@
     <title>fisdom</title>
   </head>
   <body>
-    <!-- <header class="header container">
-      <nav>
-        <div class="header__logo">
-          <img src="./public/logo.png" alt="fisdom-logo" />
-          <span>fisdom</span>
-        </div>
-        <div class="header__links">
-          <ul class="header__menu">
-            <li><a class="header__link" href="#invest">Invest</a></li>
-            <li><a class="header__link" href="#insure">Insure</a></li>
-            <li><a class="header__link" href="#goals">Goals</a></li>
-            <li><a class="header__link" href="#partners">Partners</a></li>
-          </ul>
-        </div>
-        <a href="#menu-bar">
-          <i class="fa-solid fa-bars"></i>
-        </a>
-      </nav>
-    </header> -->
     <header class="header container">
       <nav>
         <div class="header__logo">
-          <img src="/logo.png" alt="fisdom-logo" />
+          <img src="/logo.png" alt="fisdom-logo" loading="lazy" />
           <span class="logo__title">fisdom</span>
         </div>
         <div>
           <ul class="header__menu">
             <li class="header_arrow_down">
               <a class="header__link" href="#invest">Invest</a>
-              <i
-                class="fa-solid fa-angle-down fa-xs"
-                style="color: #5e5ac4"
-              ></i>
+              <i class="fa-solid fa-angle-down fa-xs"></i>
             </li>
             <li class="header_arrow_down">
               <a class="header__link" href="#insure">Insure</a>
 
-              <i
-                class="fa-solid fa-angle-down fa-xs"
-                style="color: #5e5ac4"
-              ></i>
+              <i class="fa-solid fa-angle-down fa-xs"></i>
             </li>
             <li class="header_arrow_down">
               <a class="header__link" href="#goals">Goals</a>
 
-              <i
-                class="fa-solid fa-angle-down fa-xs"
-                style="color: #5e5ac4"
-              ></i>
+              <i class="fa-solid fa-angle-down fa-xs"></i>
             </li>
             <li>
               <a class="header__link" href="#partners">Partners</a>
             </li>
             <li class="header__line"></li>
             <li>
-              <button class="header__sun">
+              <button id="theme-toggle" class="header__sun">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -98,7 +70,33 @@
         </button>
       </nav>
     </header>
+    <!-- Mobile navigation -->
+    <div class="mobile-nav">
+      <nav>
+        <ul class="mobile-nav__menu">
+          <li><a class="mobile-nav__link" href="#">Invest</a></li>
+          <li><a class="mobile-nav__link" href="#">Insure</a></li>
+          <li><a class="mobile-nav__link" href="#">Goals</a></li>
+          <li><a class="mobile-nav__link" href="#">Partners</a></li>
+          <li class="mobile-nav__link-line"></li>
+          <li>
+            <button id="theme-toggle" class="mobile-nav__sun">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  d="M12 2.25a.75.75 0 01.75.75v2.25a.75.75 0 01-1.5 0V3a.75.75 0 01.75-.75zM7.5 12a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM18.894 6.166a.75.75 0 00-1.06-1.06l-1.591 1.59a.75.75 0 101.06 1.061l1.591-1.59zM21.75 12a.75.75 0 01-.75.75h-2.25a.75.75 0 010-1.5H21a.75.75 0 01.75.75zM17.834 18.894a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 10-1.061 1.06l1.59 1.591zM12 18a.75.75 0 01.75.75V21a.75.75 0 01-1.5 0v-2.25A.75.75 0 0112 18zM7.758 17.303a.75.75 0 00-1.061-1.06l-1.591 1.59a.75.75 0 001.06 1.061l1.591-1.59zM6 12a.75.75 0 01-.75.75H3a.75.75 0 010-1.5h2.25A.75.75 0 016 12zM6.697 7.757a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 00-1.061 1.06l1.59 1.591z"
+                />
+              </svg>
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </div>
 
+    <!-- End of mobile navigation -->
     <main>
       <!-- ############# -->
       <!-- hero section -->
@@ -144,7 +142,7 @@
           <!-- </div> -->
         </div>
         <div class="hero__image">
-          <img src="/hero-img.png" alt="hero image" />
+          <img src="/hero-img.png" alt="hero image" loading="lazy" />
         </div>
         <!-- </div> -->
       </section>

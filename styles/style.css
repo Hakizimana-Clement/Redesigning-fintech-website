@@ -1,5 +1,8 @@
 :root {
   --clr-background: #ffffff;
+  --clr-background-dark: #f7f8fb;
+  --clr-on-features-section: #5e5ac4;
+
   /* paragraph */
   --clr-light: #d5d4dc;
   --clr-primary: rgb(92, 89, 195);
@@ -7,13 +10,16 @@
   --clr-card3: #e8caa2;
   --clr-card2: #eeedea;
   --clr-fourth: #3c382d;
-  --clr-links: rgb(94, 90, 196);
+  --clr-links: #5e5ac4;
   --clr-links-hover: #524fb7;
   --clr-links-inactive: #a8a7db;
   --clr-grayish: #524e4e;
   --clr-really-gray: #8a8a8a;
   --clr-font: #212239;
   --clr-feature: #95cdc6;
+  --clr-bg-btn: #000000;
+  --clr-bg-btn-hover: #2f2d7c;
+  --clr-text-on-choose-section: #000;
   /* original font color */
   /* --clr-font: #2b2a52; */
   /* sample on design color */
@@ -43,6 +49,39 @@
 html {
   scroll-behavior: smooth;
 }
+
+.dark-mode {
+  /* dark mode color */
+  /* #182f49  */
+  --clr-light: "#182f49";
+  --clr-dark: #ffffff;
+  /* --clr-background: #ffffff; */
+  /* --clr-background: #282b49; */
+  --clr-background: #07062d;
+  --clr-background-dark: #000000;
+
+  /* paragraph */
+  /* trusted color */
+  --clr-light: #d5d4dc;
+  --clr-primary: #5c59c3;
+  --clr-secondary: #9ad3cc;
+  --clr-card3: #e8caa2;
+  --clr-card2: #eeedea;
+  --clr-fourth: #3c382d;
+  --clr-links: #ffffff;
+  --clr-links-hover: #524fb7;
+  --clr-links-inactive: #a8a7db;
+  --clr-grayish: #c9c9c9;
+  --clr-really-gray: #a5a4a4;
+  --clr-font: #ffffff;
+  --clr-feature: #95cdc6;
+  --clr-bg-btn: #2f2d7c;
+  --clr-bg-btn-hover: #5b58c5;
+
+  --clr-text-on-choose-section: #000;
+  --clr-on-features-section: #000;
+}
+
 body {
   font-family: "DM Sans", sans-serif;
   /* color: var(--clr-light); */

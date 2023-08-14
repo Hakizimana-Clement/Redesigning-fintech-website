@@ -39,7 +39,7 @@ span {
 
 /* apple button */
 .hero__icon-button {
-  background-color: black;
+  background-color: var(--clr-bg-btn);
   color: white;
   display: flex;
   align-items: center;
@@ -61,7 +61,7 @@ h2 {
 }
 
 .hero__icon-button:hover {
-  background-color: #2f2d7c;
+  background-color: var(--clr-bg-btn-hover);
 }
 /* xs */
 @media (min-width: 475px) {
