@@ -24,6 +24,12 @@
   color: white;
 }
 /* cards */
+/* THIS IS NEW */
+/* cards container */
+.trusted-cards {
+  padding-bottom: 3rem;
+}
+
 .trusted-card-1,
 .trusted-card-2 {
   background-color: var(--clr-background);
@@ -32,6 +38,8 @@
   /* padding: 2rem; */
   padding: 0.9rem 2rem 2rem;
   margin: 1rem 0;
+
+  padding-bottom: 4rem;
 }
 
 .trusted-card-1 img,

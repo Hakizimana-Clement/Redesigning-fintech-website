@@ -58,9 +58,9 @@ span {
   /* border: 1px rebeccapurple solid; */
 }
 
-.section {
+/* .section {
   margin-top: 10rem;
-}
+} */
 /* xs */
 @media (min-width: 475px) {
   .container {
