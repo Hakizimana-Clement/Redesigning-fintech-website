@@ -15,6 +15,7 @@ The resource is [Redesigning fintech websiteP](https://www.behance.net/gallery/1
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
+- [Challenges](#challenges)
 - [Acknowledgments](#acknowledgments)
 
 ## Installation
