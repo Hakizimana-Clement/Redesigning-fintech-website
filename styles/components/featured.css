@@ -27,14 +27,6 @@
   flex-wrap: wrap;
   gap: 1.5rem;
 }
-/* icon group */
-/* .features__icon-group-1,
-.features__icon-group-2 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0.5rem;
-} */
 
 /* slack icon */
 .features__slack-icon {
@@ -74,8 +66,6 @@
 }
 /* title */
 .feature__title {
-  /* font-size: var(--size-lg); */
-  /* color: var(--clr-feature); */
   margin-top: 1.5rem;
   font-size: var(--size-3xl);
   text-align: left;
@@ -92,7 +82,6 @@
   font-weight: 200;
   width: 61%;
   margin-top: 0.8rem;
-  /* line-height: 19px; */
 }
 /* download button */
 .feature__download-container {
@@ -114,7 +103,6 @@
   .feature__title {
     width: 84%;
     margin-top: 0;
-    /* font-size: var(--size-2xl); */
   }
 
   /* container */
@@ -126,8 +114,6 @@
   .feature__wrapper {
     display: flex;
     justify-content: center;
-    /* justify-content: space-around; */
-    /* align-items: flex-end; */
     align-items: center;
     gap: 1rem;
     overflow: hidden;
@@ -135,11 +121,6 @@
   /* image */
   .feature-image {
     position: relative;
-    /* top: 84px; */
-    /* border: 4px solid; */
-    /* width: 42%; */
-    /* overflow: hidden; */
-    /* top: 3rem; */
     top: 2rem;
     flex: 0 1 355px;
     margin-top: 0;
@@ -170,33 +151,25 @@
   .feature__wrapper {
     align-items: flex-start;
     gap: 2rem;
-
-    /* align-items: flex-start; */
-    /* justify-content: center; */
   }
 }
 /* md */
 @media (min-width: 768px) {
   .feature__title {
-    /* width: 47%; */
     width: 65%;
   }
 
   .feature-image {
-    /* top: 8rem; */
     margin-left: 7rem;
     top: 5rem;
-    /* top: 0; */
   }
   .feature__wrapper {
-    /* align-items: center; */
     gap: 2rem;
     margin-top: 0;
   }
 
   .feature__text-wrapper {
     margin-top: 7rem;
-    /* margin-top: 0; */
   }
   .feature__download-container {
     margin-top: 2rem;
@@ -220,14 +193,8 @@
     margin-top: 3rem;
   }
 
-  /* .feature__text-wrapper { */
-  /* margin-top: 13rem; */
-  /* margin-top: 9rem; */
-  /* } */
-
   .feature__description {
     font-size: var(--size-lg);
-    /* font-size: var(--size-base); */
     margin-top: 2rem;
   }
 

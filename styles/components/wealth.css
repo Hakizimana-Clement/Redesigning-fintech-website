@@ -3,9 +3,6 @@
   flex-direction: column;
 }
 
-/* .wealth__title {
-  font-size: var(--size-3xl);
-} */
 .wealth__description {
   font-size: var(--size-xs);
   margin-top: 1rem;
@@ -13,9 +10,6 @@
 }
 /* This is like card but not true */
 .wealth-part-1 {
-  /* border: 1px solid red; */
-  /* margin-top: 3rem; */
-  /* margin: 3rem 0 2rem; */
   margin: 3rem 0;
 }
 
@@ -41,9 +35,6 @@
 }
 /* text title only */
 
-.title-2 {
-  /* width: 67%; */
-}
 .wealth__subtitle {
   font-size: var(--size-xl);
 }
@@ -66,11 +57,6 @@
     font-size: var(--size-4xl);
     width: 61%;
   }
-  /* .wealth__description {
-    font-size: var(--size-sm);
-    margin-top: 1.5rem;
-    width: 92%;
-  } */
   .wealth__description {
     font-size: var(--size-xs);
     margin-top: 1.5rem;

@@ -55,12 +55,8 @@ span {
   margin-right: auto;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
-  /* border: 1px rebeccapurple solid; */
 }
 
-/* .section {
-  margin-top: 10rem;
-} */
 /* xs */
 @media (min-width: 475px) {
   .container {
@@ -100,7 +96,5 @@ span {
 @media (min-width: 1536px) {
   .container {
     max-width: 1536px;
-    /* padding: 0 6%; */
-    /* padding: 0 6%; */
   }
 }

@@ -7,7 +7,6 @@
 .choose-better__card-1,
 .choose-better__card-2,
 .choose-better__card-3 {
-  /* background-color: var(--clr-secondary); */
   border-radius: 11px;
   padding: 8%;
   margin-top: 1.5rem;
@@ -50,16 +49,12 @@
   font-weight: 900;
   width: 60%;
   color: var(--clr-text-on-choose-section);
-  /* color: var(--clr-bg-btn); */
-  /* color: var(--clr-background); */
-  /* width: 64%; */
 }
 /* xl*/
 /* @media (min-width: 640px) { */
 @media (min-width: 475px) {
   /* title */
   .choose-better__title {
-    /* text-align: center; */
     width: 100%;
     margin-bottom: 1.8rem;
     font-size: var(--size-4xl);
@@ -77,7 +72,6 @@
     flex: auto;
     margin: 0.47rem;
     padding: 1rem;
-    /* padding: 10px; */
   }
   /* subtitle */
   .choose-better__subtitle {
@@ -85,7 +79,6 @@
   }
   .choose-better__description {
     font-size: var(--size-2xl);
-    /* width: 71%; */
   }
   /* This is for push h2 for card 1 to be on same line as other */
   .special {

@@ -3,12 +3,6 @@
   padding-bottom: 2rem;
   position: relative;
   z-index: 9999;
-  /* position: sticky;
-    top: 0px;
-    background: white;
-    padding-top: 17px;
-    padding-bottom: 17px;
-    box-shadow: 0px 2px 4px 0px #3b33334f; */
 }
 
 .header__menu {
@@ -178,9 +172,6 @@ nav {
     width: var(--size-3xl);
     height: var(--size-3xl);
   }
-  /* .header_arrow_down {
-  font-size: 1rem
-} */
 }
 
 /* 2xl */
